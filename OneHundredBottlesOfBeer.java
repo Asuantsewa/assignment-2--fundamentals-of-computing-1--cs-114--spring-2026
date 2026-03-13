@@ -14,14 +14,14 @@ public class OneHundredBottlesOfBeer {
       }
       }else{
         System.out.println("INvalid inpput. Please enter a whole number: ");
-        return;
+      return;
       }
-      for (int i = 100; i >100 - verses; i--) {
-        System.out.println( i + " bottles of beer on the wall, " + i + " bottles of beer");
-        System.out.println("If one of the bottles should happpen to fall");
-        System.out.println(( i -1) + " bottles of beer on the wall");
-        System.out.println();
-      }
-      scanner.close();
+  for (int i = 100; i >100 - verses; i--) {
+    System.out.println( i + " bottles of beer on the wall, " + i + " bottles of beer");
+    System.out.println("If one of the bottles should happpen to fall");
+    System.out.println(( i -1) + " bottles of beer on the wall");
+    System.out.println();
+  }
+  scanner.close();
   }
 }
